@@ -59,23 +59,7 @@
 
 독립형 서버(Standalone)에 AD 역할을 올리고 도메인 컨트롤러(DC)로 승격하여 시스템을 중앙 관리하는 체계.
 
-<aside>
 
-```
-       [ FOREST (최상위 관리 영역) ]
-```
-
-================================
-( 양방향 Trust 신뢰 관계 )        ( 타사/외부 트리 연결 )
-                ▼                                            ▼
-  [ Tree 1: [Kahn.edu](http://kahn.edu/) ]               [ Tree 2: 외부 도메인 ]
-         ▲ (부모)
- ┌─────┴───────────────────┐
-[ [seoul.kahn.edu](http://seoul.kahn.edu/) ]  [ [pusan.kahn.edu](http://pusan.kahn.edu/) ] (자식 도메인)
-                                   ▲ (부모)
-                 [ [jeju.pusan.kahn.edu](http://jeju.pusan.kahn.edu/) ] (지사 RODC 구성)
-
-</aside>
 
 - **도메인 컨트롤러(DC) 승격 :** 일반 서버에서 시작 ➡️ 실행 ➡️ **`dcpromo.exe`** 명령어를 실행하여 도메인 서버로 승격.
     - *주의 :* 일반 서버에서 DC로 승격하는 과정은 **시스템 레벨에서 비가역적(Not Reversible / 하이드레이드 불가)**이므로 신중해야 함.
@@ -145,6 +129,8 @@
 
 ※ 주석 ※
 
+ 이상의 내용은 인공지능 Chat GPT와 함께 작성한 내용입니다. 
+ 
 ---
 
 ### ★ 오늘 새로 배운 중요한 내용 ★
