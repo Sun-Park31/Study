@@ -1,7 +1,6 @@
 # 1주 3일차 - 가상화와 VMware
 
-sub: 1
-상태: 시작 전
+
 
 ### ☆ 가상화 환경과 Windows Server 설치 ☆
 
