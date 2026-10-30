@@ -1,7 +1,6 @@
 # 1주 4일차 - Windows Server 운영과 서비스
 
-sub: 1
-상태: 시작 전
+
 
 ### ☆ Windows Server 운영과 서비스 ☆
 
