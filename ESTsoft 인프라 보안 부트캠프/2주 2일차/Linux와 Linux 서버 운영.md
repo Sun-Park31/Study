@@ -1,7 +1,5 @@
 # 2주 2일차 - Linux와 Linux 서버 운영
 
-sub: 1
-상태: 시작 전
 
 ### ☆ Linux와 Linux 서버 운영 ☆
 
