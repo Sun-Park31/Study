@@ -10,7 +10,7 @@
 
 >> 먼저 아래쪽 아이콘을 이용하여 스위치와 노드, 서버를 셋팅했다.
 
-![패킷 트레이서 02.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_02.png)
+<img width="815" height="664" alt="Image" src="https://github.com/user-attachments/assets/782b3a67-33b3-45a5-8d71-b95152c6e051" />
 
 >> 케이블을 연결하여 신호가 제대로 오가는 것까지 확인하였다.
 
@@ -18,15 +18,15 @@
 
 ## 2. 노드와 서버에 IP주소 부여하기
 
-![패킷 트레이서 03.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_03.png)
+<img width="639" height="569" alt="Image" src="https://github.com/user-attachments/assets/bc9f335e-ed50-4362-add9-764410461d2d" />
 
 >> 노드 중 하나인 컴퓨터를 클릭하여 상세화면으로 들어갔다.
 
-![패킷 트레이서 04.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_04.png)
+<img width="639" height="569" alt="Image" src="https://github.com/user-attachments/assets/821f8155-e28f-45a9-bf86-3cca56b3aedb" />
 
 >> Desktop의 IP Configuation에 들어간 화면이다.
 
-![패킷 트레이서 05.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_05.png)
+<img width="639" height="569" alt="Image" src="https://github.com/user-attachments/assets/d0f0b0f4-b9e9-4b48-bb59-ccdb96a638f6" />
 
 >> IP Address에 C클래스 주소를 부여하였다. IP 주소만 작성하면 프로그램에서 서브넷 마스크는 자동으로 설정해준다.
 
@@ -37,29 +37,29 @@
 - `arp -a` : arp 캐시테이블에 저장된 모든 IP 주소와 MAC 주소의 매핑목록 호출
 - `ping` : 특정 ip나 도메인을 가진 네트워크 장치와 통신여부 확인, TTL 확인
 
-![패킷 트레이서 03.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_03%201.png)
+<img width="639" height="569" alt="Image" src="https://github.com/user-attachments/assets/bc9f335e-ed50-4362-add9-764410461d2d" />
 
 >> 아까와 같이 노드의 창을 연다. Command Prompt를 실행한다.
 
-![패킷 트레이서 06.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_06.png)
+<img width="639" height="569" alt="Image" src="https://github.com/user-attachments/assets/45b6647b-6be7-48f2-8d71-15c83e537014" />
 
 >> 이러한 화면이 뜨는데, 먼저 `arp -a`를 사용해보면
 
-![패킷 트레이서 07.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_07.png)
+<img width="639" height="569" alt="Image" src="https://github.com/user-attachments/assets/5551e02e-de09-4dbb-8c0b-6de94f22b20d" />
 
 >> 아무것도 뜨지 않는다. arp에 관한 어떤 작업도 하지 않았기 때문이다.
 
-![패킷 트레이서 08.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_08.png)
+<img width="639" height="569" alt="Image" src="https://github.com/user-attachments/assets/369efbca-b2bc-465c-9638-e21959b2ae93" />
 
 >> 다음으로 `ping` 명령어를 이용해 서버에 붙여주었던 `192.168.100.30`에게 직접 ping을 보냈다. 정상적으로 작동하여 Reply가 뜬 모습이다.
 
-![패킷 트레이서 09.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_09.png)
+<img width="639" height="569" alt="Image" src="https://github.com/user-attachments/assets/3ea4a84a-d37a-4538-8afc-5b99777e94e4" />
 
 >>이후에 다시 `arp -a`를 입력하면, 서버의 ip 주소인 `192.168.100.30`과 MAC 주소인 `0600.2f78.6878`이 뜬다. 신호 교환이 원활하게 이뤄지고 있다는 의미이다.
 
 ## 4. Router 설치하기
 
-![패킷 트레이서 10.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_10.png)
+<img width="815" height="664" alt="Image" src="https://github.com/user-attachments/assets/bcccf94d-5b5d-4bf5-a031-89c71e544294" />
 
 >> 라우터를 위치시키고 이들도 자동 케이블로 연결하였다.
 
@@ -69,11 +69,11 @@
 
 ## 5. Router 설정하기
 
-![패킷 트레이서 11.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_11.png)
+<img width="639" height="569" alt="Image" src="https://github.com/user-attachments/assets/1be02a8d-3946-46a1-9905-546b7b75d681" />
 
 >> 노드와 서버처럼, 중간에 있는 라우터를 클릭하여 CLI로 들어간다.
 
-![패킷 트레이서 12.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_12.png)
+<img width="639" height="569" alt="Image" src="https://github.com/user-attachments/assets/b999125c-1269-416b-a211-57241281153f" />
 
 >> 라우터를 설정하는 방식이다.
 
@@ -115,7 +115,7 @@ from. 챗지피티
 
 </aside>
 
-![패킷 트레이서 13.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_13.png)
+<img width="815" height="664" alt="Image" src="https://github.com/user-attachments/assets/89918967-1b6d-44cb-a16a-23239fe1ac8a" />
 
 >>최종적으로 라우터까지 모두 연결이 완료된 모습이다.
 
