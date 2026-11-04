@@ -6,7 +6,7 @@
 
 ## 1. 장치 셋팅하고 케이블 연결하기
 
-![패킷 트레이서 01.png](%ED%8C%A8%ED%82%B7_%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C_01.png)
+<img width="815" height="664" alt="Image" src="https://github.com/user-attachments/assets/c3df2fda-5c26-40f9-9f89-47415bd342a0" />
 
 >> 먼저 아래쪽 아이콘을 이용하여 스위치와 노드, 서버를 셋팅했다.
 
